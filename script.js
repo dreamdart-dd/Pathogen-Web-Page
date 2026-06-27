@@ -699,7 +699,32 @@ replaceTextDeep(content.ja, [
 ]);
 
 const params = new URLSearchParams(window.location.search);
-const activeLang = content[params.get("lang")] ? params.get("lang") : "en";
+const supportedLanguageCodes = languageButtons.map(([code]) => code);
+
+function detectPreferredLanguage() {
+  const browserLanguages = navigator.languages?.length ? navigator.languages : [navigator.language];
+  for (const language of browserLanguages) {
+    if (!language) continue;
+    const normalized = language.toLowerCase();
+    const exactMatch = supportedLanguageCodes.find((code) => code.toLowerCase() === normalized);
+    if (exactMatch) return exactMatch;
+
+    if (normalized.startsWith("zh")) {
+      if (normalized.includes("tw") || normalized.includes("hk") || normalized.includes("mo") || normalized.includes("hant")) {
+        return "zh-TW";
+      }
+      return "zh-CN";
+    }
+
+    const baseLanguage = normalized.split("-")[0];
+    const baseMatch = supportedLanguageCodes.find((code) => code.toLowerCase().split("-")[0] === baseLanguage);
+    if (baseMatch) return baseMatch;
+  }
+  return "en";
+}
+
+const requestedLang = params.get("lang");
+const activeLang = content[requestedLang] ? requestedLang : detectPreferredLanguage();
 
 function getValue(path) {
   return path.split(".").reduce((value, key) => value?.[key], content[activeLang]);
