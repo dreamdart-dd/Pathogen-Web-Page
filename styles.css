@@ -554,6 +554,47 @@ figcaption {
   text-align: center;
 }
 
+.coverage {
+  border-top: 1px solid var(--line);
+  background: #0f1216;
+}
+
+.coverage-inner {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: 34px 22px;
+}
+
+.coverage h2 {
+  margin: 0 0 16px;
+  font-size: 24px;
+}
+
+.coverage-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.coverage-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  font-weight: 800;
+  padding: 9px 14px;
+  text-decoration: none;
+  line-height: 1.35;
+}
+
+.coverage-links a:hover {
+  border-color: var(--gold);
+  background: rgba(230, 182, 76, 0.14);
+}
+
 @media (max-width: 920px) {
   .hero-facts,
   .feature-grid,
@@ -563,6 +604,10 @@ figcaption {
   .difference-layout,
   .trailer-layout,
   .press-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .coverage-links {
     grid-template-columns: 1fr;
   }
 

@@ -105,7 +105,7 @@ const content = {
     difference: { kicker: "Pathogen의 차별점", title: "패 맞추기보다 깊은 계획과 덱 통제.", subtitle: "운은 존재하지만, Pathogen은 플레이어가 빌드를 조정하고 어려운 드로우를 극복할 방법을 더 많이 제공합니다.", items: [{ title: "운보다 전략", body: "Pathogen은 포커처럼 특정 패를 맞추는 게임이 아닙니다. 치밀한 계획과 판단이 생존 확률을 크게 높입니다." }, { title: "덱을 조정하는 다양한 방법", body: "상점 아이템으로 원치 않는 카드를 제거하고, 접합 실험으로 발견한 레시피나 숨겨진 규칙에 따라 카드를 새로운 병원체로 융합할 수 있습니다." }, { title: "원하는 덱을 선택해 성장", body: "데모에는 2개의 플레이 가능한 덱이 있으며, 정식 출시 버전에는 8개 이상의 덱이 포함될 예정입니다." }, { title: "거대한 콤보 턴", body: "대부분의 카드는 단독으로는 적은 에센스를 만들지만, 강력한 시너지는 한 턴의 점수를 수만, 수십만까지 끌어올릴 수 있습니다." }, { title: "손패에서도 의미 있는 카드", body: "DNA 변형 팩은 손패에 있어도 유지되는 효과를 부여할 수 있고, 필드의 카드는 아직 내지 않은 카드를 강화할 수 있습니다." }] },
     gallery: { kicker: "스크린샷", title: "보드 상황, 보스의 압박, 보상 선택.", hint: "스크린샷을 클릭하면 크게 볼 수 있습니다.", items: ["각 병원체의 체력이 줄어드는 동안 초반 보드를 설계하세요.", "위험한 전투에서 살아남고 연약한 카드를 결정적인 에센스 획득으로 바꾸세요.", "카드를 내기 전부터 카드의 가치를 바꾸는 DNA 변형을 선택하세요."] },
     cta: { kicker: "살아남을 수 있을까요?", title: "에센스를 추출하고 스펙터에게서 살아남으세요.", body: "Pathogen은 현재 개발 중입니다. 전체 스토리, 전개 속도, 서사 흐름은 출시 전까지 계속 다듬어질 예정입니다.", button: "트레일러 보기" },
-    press: { kicker: "보도자료용 문구", title: "한 페이지 게임 소개", intro: "기사, 스토어 페이지, 크리에이터 제안서에 사용할 수 있도록 아래 내용을 복사할 수 있습니다.", button: "소개문 복사", copied: "복사 완료", body: "Pathogen은 1인 개발자 DREAMDART가 개발 중인 PC 및 Steam용 덱빌딩 로그라이크입니다. 2026년 4분기 얼리 액세스를 목표로 하며, 플레이어는 병원체를 배양하고 정수(Essence)를 추출해 7턴 안에 목표 점수에 도달해야 합니다. 규칙은 직관적이지만, 매 턴마다 어떤 카드를 살리고, 어떤 카드를 희생하며, 얼마나 위험한 선까지 밀어붙일지 선택해야 합니다.\n\nPathogen의 핵심은 운보다 전략이 강한 덱빌딩입니다. 포커처럼 특정 패를 맞추는 방식이 아니라, 카드의 순서와 수명, 희생 타이밍을 설계하는 게임입니다. 턴이 끝날 때마다 모든 카드의 체력이 줄어들기 때문에 보드는 매 턴 작은 퍼즐처럼 변합니다. 단독으로는 약해 보이는 카드도 체력 회복, 정수 증가, 유전자 태그 보너스, 아티팩트, 희생 소환, 융합 레시피, DNA 조작과 연결되면 폭발적인 연쇄 효과의 시작점이 됩니다.\n\n플레이어는 원하는 덱을 만들기 위해 원치 않는 카드를 제거하거나, 접합 실험으로 카드를 융합해 새로운 병원체를 만들 수 있습니다. 발견한 레시피를 따르면 특정 카드를 만들 수 있고, 아직 알 수 없는 조합은 숨겨진 규칙에 따라 예측하지 못한 결과를 낳습니다. 또한 DNA 조작을 통해 손패에 있는 카드도 강력한 효과를 발동하거나, 손패와 필드의 카드가 서로 연계되는 상황을 만들 수 있습니다.\n\n게임이 익숙해질수록 플레이어는 강력한 한방을 준비하게 됩니다. 대부분의 카드는 단독으로는 적은 정수만 만들어내지만, 제대로 준비된 시너지는 한 턴의 점수를 수만, 수십만까지 끌어올릴 수 있습니다. 아슬아슬하게 죽음의 경계에 서 있다가 마지막 순간에 계획한 콤보가 터지며 살아남는 경험이 Pathogen의 가장 큰 재미입니다.\n\n스토리는 가상의 제국주의 국가에서 벌어진 비밀 군사 실험을 배경으로 합니다. 국가는 범죄자를 대상으로 순간이동, 비물질화, 염동력 같은 초자연적 군사 기술을 개발하기 위한 불법 실험을 진행했습니다. 수년 뒤, 한 실험체가 복수심에 불타는 스펙터가 되어 돌아옵니다. 스펙터는 과학자들을 죽이는 대신 당신을 포함한 의사들을 납치하고, 강력한 병원체를 배양해 정수를 추출하라고 명령합니다. 스펙터가 왜 정수를 원하는지는 아무도 모릅니다. 살아남기 위해서는 명령을 따르는 수밖에 없습니다.\n\n런에서 승리하면 실험체들의 기억을 목격할 수 있습니다. 이 선택형 이벤트는 의사인 플레이어에게 그들의 고통, 트라우마, 감정을 다시 겪게 만들고, 도덕적으로 불가능한 선택을 강요합니다. 트롤리 문제처럼 어떤 선택도 완전히 옳지 않지만, 모든 선택은 보상으로 이어집니다. 플레이를 이어갈수록 흩어진 기억은 퍼즐처럼 연결되고, 스펙터가 왜 의사들을 납치했는지, 정수가 무엇을 의미하는지 조금씩 드러납니다.\n\n데모에는 다양한 빌드가 가능한 2개의 스타트 덱이 포함되며, 정식 버전에는 8개 이상의 덱이 포함될 예정입니다." },
+    press: { kicker: "보도자료용 문구", title: "한 페이지 게임 소개", intro: "기사, 블로그, SNS 등 복사하여 자유롭게 사용하세요.", button: "소개문 복사", copied: "복사 완료", body: "Pathogen은 1인 개발자 DREAMDART가 개발 중인 PC 및 Steam용 덱빌딩 로그라이크입니다. 2026년 4분기 얼리 액세스를 목표로 하며, 플레이어는 병원체를 배양하고 정수(Essence)를 추출해 7턴 안에 목표 점수에 도달해야 합니다. 규칙은 직관적이지만, 매 턴마다 어떤 카드를 살리고, 어떤 카드를 희생하며, 얼마나 위험한 선까지 밀어붙일지 선택해야 합니다.\n\nPathogen의 핵심은 운보다 전략이 강한 덱빌딩입니다. 포커처럼 특정 패를 맞추는 방식이 아니라, 카드의 순서와 수명, 희생 타이밍을 설계하는 게임입니다. 턴이 끝날 때마다 모든 카드의 체력이 줄어들기 때문에 보드는 매 턴 작은 퍼즐처럼 변합니다. 단독으로는 약해 보이는 카드도 체력 회복, 정수 증가, 유전자 태그 보너스, 아티팩트, 희생 소환, 융합 레시피, DNA 조작과 연결되면 폭발적인 연쇄 효과의 시작점이 됩니다.\n\n플레이어는 원하는 덱을 만들기 위해 원치 않는 카드를 제거하거나, 접합 실험으로 카드를 융합해 새로운 병원체를 만들 수 있습니다. 발견한 레시피를 따르면 특정 카드를 만들 수 있고, 아직 알 수 없는 조합은 숨겨진 규칙에 따라 예측하지 못한 결과를 낳습니다. 또한 DNA 조작을 통해 손패에 있는 카드도 강력한 효과를 발동하거나, 손패와 필드의 카드가 서로 연계되는 상황을 만들 수 있습니다.\n\n게임이 익숙해질수록 플레이어는 강력한 한방을 준비하게 됩니다. 대부분의 카드는 단독으로는 적은 정수만 만들어내지만, 제대로 준비된 시너지는 한 턴의 점수를 수만, 수십만까지 끌어올릴 수 있습니다. 아슬아슬하게 죽음의 경계에 서 있다가 마지막 순간에 계획한 콤보가 터지며 살아남는 경험이 Pathogen의 가장 큰 재미입니다.\n\n스토리는 가상의 제국주의 국가에서 벌어진 비밀 군사 실험을 배경으로 합니다. 국가는 범죄자를 대상으로 순간이동, 비물질화, 염동력 같은 초자연적 군사 기술을 개발하기 위한 불법 실험을 진행했습니다. 수년 뒤, 한 실험체가 복수심에 불타는 스펙터가 되어 돌아옵니다. 스펙터는 과학자들을 죽이는 대신 당신을 포함한 의사들을 납치하고, 강력한 병원체를 배양해 정수를 추출하라고 명령합니다. 스펙터가 왜 정수를 원하는지는 아무도 모릅니다. 살아남기 위해서는 명령을 따르는 수밖에 없습니다.\n\n런에서 승리하면 실험체들의 기억을 목격할 수 있습니다. 이 선택형 이벤트는 의사인 플레이어에게 그들의 고통, 트라우마, 감정을 다시 겪게 만들고, 도덕적으로 불가능한 선택을 강요합니다. 트롤리 문제처럼 어떤 선택도 완전히 옳지 않지만, 모든 선택은 보상으로 이어집니다. 플레이를 이어갈수록 흩어진 기억은 퍼즐처럼 연결되고, 스펙터가 왜 의사들을 납치했는지, 정수가 무엇을 의미하는지 조금씩 드러납니다.\n\n데모에는 다양한 빌드가 가능한 2개의 스타트 덱이 포함되며, 정식 버전에는 8개 이상의 덱이 포함될 예정입니다." },
     modal: { close: "스크린샷 닫기" },
     footer: "Pathogen - DREAMDART. 다국어 정적 게임 소개 페이지.",
   },
@@ -581,6 +581,23 @@ for (const [lang, copy] of Object.entries(detailedPressCopy)) {
   content[lang].press.body = copy.pressBody;
 }
 
+const pressIntroTranslations = {
+  ko: "기사, 블로그, SNS 등 복사하여 자유롭게 사용하세요.",
+  en: "Feel free to copy and use this for articles, blogs, social media, and more.",
+  ja: "記事、ブログ、SNSなどに自由にコピーしてご利用ください。",
+  "zh-CN": "可自由复制并用于报道、博客、社交媒体等内容。",
+  "zh-TW": "可自由複製並用於報導、部落格、社群媒體等內容。",
+  fr: "Copiez et utilisez librement ce texte pour des articles, blogs, réseaux sociaux, etc.",
+  de: "Du kannst diesen Text frei für Artikel, Blogs, Social Media und mehr kopieren und verwenden.",
+  pt: "Copie e use livremente este texto em artigos, blogs, redes sociais e outros materiais.",
+  ru: "Свободно копируйте и используйте этот текст для статей, блогов, соцсетей и других материалов.",
+  es: "Puedes copiar y usar libremente este texto para artículos, blogs, redes sociales y más.",
+};
+
+for (const [lang, intro] of Object.entries(pressIntroTranslations)) {
+  content[lang].press.intro = intro;
+}
+
 for (const lang of Object.keys(content)) {
   content[lang].facts.os = content[lang].facts.os || { label: "OS", value: "Windows" };
 }
@@ -600,6 +617,110 @@ const steamButtonLabels = {
 
 for (const [lang, label] of Object.entries(steamButtonLabels)) {
   content[lang].hero.steam = label;
+}
+
+const coverageButtonLabels = {
+  ko: "보도 자료",
+  en: "Press Coverage",
+  ja: "掲載記事",
+  "zh-CN": "媒体报道",
+  "zh-TW": "媒體報導",
+  fr: "Articles de presse",
+  de: "Presseberichte",
+  pt: "Cobertura da imprensa",
+  ru: "Публикации в прессе",
+  es: "Cobertura de prensa",
+};
+
+for (const [lang, label] of Object.entries(coverageButtonLabels)) {
+  content[lang].hero.coverage = label;
+}
+
+const coverageTranslations = {
+  ko: {
+    title: "보도 자료",
+    items: [
+      "“누워서라도 만들었다” 1인 개발 덱빌딩 로그라이크 ‘페소젠’",
+      "침대에 누워 개발한 덱빌딩 게임 'Pathogen' 4분기 출시 예고",
+      "4분기 출시 앞둔 1인 개발 게임 '페소젠' 데모 버전 출시",
+    ],
+  },
+  en: {
+    title: "Press Coverage",
+    items: [
+      "\"I made it even while lying down\" - solo-developed deck-building roguelike Pathogen",
+      "Deck-building game Pathogen, developed from bed, planned for Q4 release",
+      "Solo-developed game Pathogen releases demo ahead of Q4 launch",
+    ],
+  },
+  ja: {
+    title: "掲載記事",
+    items: [
+      "「寝転がってでも作った」個人開発デッキ構築ローグライク『Pathogen』",
+      "ベッドで横になりながら開発されたデッキ構築ゲーム『Pathogen』、第4四半期発売予定",
+      "第4四半期発売予定の個人開発ゲーム『Pathogen』デモ版を公開",
+    ],
+  },
+  "zh-CN": {
+    title: "媒体报道",
+    items: [
+      "“躺着也要做出来” 单人开发 Roguelike 卡牌构筑游戏《Pathogen》",
+      "躺在床上开发的卡牌构筑游戏《Pathogen》预计第四季度推出",
+      "第四季度发售前，单人开发游戏《Pathogen》推出试玩版",
+    ],
+  },
+  "zh-TW": {
+    title: "媒體報導",
+    items: [
+      "「躺著也要做出來」單人開發 Roguelike 卡牌構築遊戲《Pathogen》",
+      "躺在床上開發的卡牌構築遊戲《Pathogen》預計第 4 季推出",
+      "第 4 季上市前，單人開發遊戲《Pathogen》推出試玩版",
+    ],
+  },
+  fr: {
+    title: "Articles de presse",
+    items: [
+      "\"Je l'ai créé même allongé\" - Pathogen, roguelike de deck-building développé en solo",
+      "Pathogen, jeu de deck-building développé depuis un lit, annoncé pour le T4",
+      "Le jeu solo Pathogen publie sa démo avant sa sortie prévue au T4",
+    ],
+  },
+  de: {
+    title: "Presseberichte",
+    items: [
+      "\"Ich habe es sogar im Liegen entwickelt\" - Pathogen, ein solo entwickeltes Deckbuilding-Roguelike",
+      "Im Bett entwickeltes Deckbuilding-Spiel Pathogen für Q4 angekündigt",
+      "Solo entwickeltes Spiel Pathogen veröffentlicht Demo vor dem Q4-Release",
+    ],
+  },
+  pt: {
+    title: "Cobertura da imprensa",
+    items: [
+      "\"Criei mesmo deitado\" - Pathogen, roguelike de deck-building desenvolvido por uma pessoa",
+      "Pathogen, jogo de deck-building desenvolvido na cama, tem lançamento previsto para o 4º trimestre",
+      "Jogo solo Pathogen lança demo antes da estreia no 4º trimestre",
+    ],
+  },
+  ru: {
+    title: "Публикации в прессе",
+    items: [
+      "«Я делал ее даже лежа» - Pathogen, рогалик с построением колоды от соло-разработчика",
+      "Pathogen, игра с построением колоды, разработанная прямо с кровати, готовится к релизу в IV квартале",
+      "Соло-разработанная игра Pathogen выпустила демоверсию перед релизом в IV квартале",
+    ],
+  },
+  es: {
+    title: "Cobertura de prensa",
+    items: [
+      "\"Lo hice incluso acostado\" - Pathogen, roguelike de construcción de mazos desarrollado en solitario",
+      "Pathogen, juego de construcción de mazos desarrollado desde la cama, previsto para el cuarto trimestre",
+      "El juego en solitario Pathogen lanza demo antes de su estreno en el cuarto trimestre",
+    ],
+  },
+};
+
+for (const [lang, coverage] of Object.entries(coverageTranslations)) {
+  content[lang].coverage = coverage;
 }
 
 mergeCopy(content.ko, {
