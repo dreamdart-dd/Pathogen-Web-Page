@@ -209,6 +209,19 @@ h3 {
   box-shadow: 0 16px 36px rgba(217, 67, 78, 0.25);
 }
 
+.button.steam {
+  min-height: 54px;
+  padding: 13px 28px;
+  border: 1px solid rgba(105, 183, 214, 0.75);
+  background: linear-gradient(135deg, #1b77a8, #12395f);
+  color: #fff;
+  box-shadow: 0 18px 42px rgba(27, 119, 168, 0.36);
+}
+
+.button.steam:hover {
+  filter: brightness(1.12);
+}
+
 .button.secondary {
   border: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.08);

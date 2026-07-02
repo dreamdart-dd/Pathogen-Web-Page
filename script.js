@@ -585,6 +585,23 @@ for (const lang of Object.keys(content)) {
   content[lang].facts.os = content[lang].facts.os || { label: "OS", value: "Windows" };
 }
 
+const steamButtonLabels = {
+  ko: "Steam 페이지 바로가기",
+  en: "Visit Steam Page",
+  ja: "Steamページへ",
+  "zh-CN": "前往 Steam 页面",
+  "zh-TW": "前往 Steam 頁面",
+  fr: "Voir la page Steam",
+  de: "Steam-Seite öffnen",
+  pt: "Abrir página Steam",
+  ru: "Открыть страницу Steam",
+  es: "Abrir página de Steam",
+};
+
+for (const [lang, label] of Object.entries(steamButtonLabels)) {
+  content[lang].hero.steam = label;
+}
+
 mergeCopy(content.ko, {
   hero: {
     copy: "병원균에게 정수를 추출해 망령에게서 살아남으세요!",
