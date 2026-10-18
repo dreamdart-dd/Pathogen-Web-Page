@@ -10,32 +10,34 @@
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    >
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="language-bar" aria-label="Language selector">
-      <nav class="language-list" id="languageList"></nav>
+    <a class="skip-link" href="#main" data-i18n="ui.skip"></a>
+    <header class="language-bar">
+      <div class="header-inner">
+        <a class="header-brand" href="#top" aria-label="Pathogen home"><span class="brand-mark" aria-hidden="true">✳</span> PATHOGEN</a>
+        <nav class="language-list" id="languageList" aria-label="Language selector"></nav>
+      </div>
     </header>
 
-    <main>
-      <section class="hero" aria-labelledby="hero-title">
+    <main id="main">
+      <section id="top" class="hero" aria-labelledby="hero-title">
         <div class="hero-media" aria-hidden="true">
-          <img src="assets/screenshots/screenshot0002.png" alt="">
+          <img src="assets/screenshots/English_2.png" alt="">
         </div>
         <div class="hero-shade"></div>
         <div class="hero-content">
           <p class="eyebrow" data-i18n="hero.kicker"></p>
           <h1 id="hero-title" data-i18n="hero.title"></h1>
+          <p class="hero-tagline" data-i18n="hero.tagline"></p>
           <p class="hero-copy" data-i18n="hero.copy"></p>
           <div class="hero-actions">
             <a class="button steam" href="https://store.steampowered.com/app/4718090/Pathogen/" target="_blank" rel="noreferrer" data-i18n="hero.steam"></a>
             <a class="button primary" href="#trailer" data-i18n="hero.trailer"></a>
             <a class="button secondary" href="#features" data-i18n="hero.features"></a>
-            <a class="button secondary" href="#coverage" data-i18n="hero.coverage"></a>
+            <a class="button press-highlight" href="#coverage" data-i18n="hero.coverage"></a>
           </div>
           <dl class="hero-facts">
             <div>
@@ -62,7 +64,21 @@
         </div>
       </section>
 
-      <section class="intro section-band">
+      <section id="trailer" class="section-inner trailer-layout" aria-labelledby="trailer-title">
+        <div>
+          <p class="eyebrow" data-i18n="trailerSection.kicker"></p>
+          <h2 id="trailer-title" data-i18n="trailerSection.title"></h2>
+          <p data-i18n="trailerSection.body"></p>
+        </div>
+        <div class="trailer-media">
+          <div class="video-frame">
+            <iframe data-youtube-id="dKhnJV5NCgE" title="Pathogen trailer" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <a class="trailer-external" href="https://youtu.be/dKhnJV5NCgE" target="_blank" rel="noreferrer" data-i18n="trailerSection.link"></a>
+        </div>
+      </section>
+
+      <section class="intro">
         <div class="section-inner intro-grid">
           <div>
             <p class="eyebrow" data-i18n="overview.kicker"></p>
@@ -75,56 +91,6 @@
         </div>
       </section>
 
-      <section id="trailer" class="section-inner trailer-layout" aria-labelledby="trailer-title">
-        <div>
-          <p class="eyebrow" data-i18n="trailerSection.kicker"></p>
-          <h2 id="trailer-title" data-i18n="trailerSection.title"></h2>
-          <p data-i18n="trailerSection.body"></p>
-        </div>
-        <div class="video-frame">
-          <iframe
-            data-youtube-id="1TwyJMQPKNs"
-            title="Pathogen trailer"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </section>
-
-      <section class="section-inner story-layout" aria-labelledby="story-title">
-        <div class="story-image">
-          <img src="assets/screenshots/screenshot0004.png" alt="Pathogen story event choice screen">
-        </div>
-        <div>
-          <p class="eyebrow" data-i18n="story.kicker"></p>
-          <h2 id="story-title" data-i18n="story.title"></h2>
-          <p data-i18n="story.body1"></p>
-          <p data-i18n="story.body2"></p>
-          <p class="note" data-i18n="story.note"></p>
-        </div>
-      </section>
-
-      <section id="features" class="section-band feature-band" aria-labelledby="features-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="features.kicker"></p>
-            <h2 id="features-title" data-i18n-rich="features.title"></h2>
-            <p data-i18n="features.subtitle"></p>
-          </div>
-          <div class="feature-grid" id="featureGrid"></div>
-        </div>
-      </section>
-
-      <section class="section-inner difference-layout" aria-labelledby="difference-title">
-        <div>
-          <p class="eyebrow" data-i18n="difference.kicker"></p>
-          <h2 id="difference-title" data-i18n="difference.title"></h2>
-          <p data-i18n="difference.subtitle"></p>
-        </div>
-        <div class="difference-list" id="differenceList"></div>
-      </section>
-
       <section class="gallery section-band" aria-labelledby="gallery-title">
         <div class="section-inner">
           <div class="section-heading compact">
@@ -132,31 +98,20 @@
             <h2 id="gallery-title" data-i18n="gallery.title"></h2>
             <p data-i18n="gallery.hint"></p>
           </div>
-          <div class="gallery-grid">
-            <figure>
-              <button class="gallery-button" type="button" data-gallery-image="assets/screenshots/screenshot0001.png">
-                <img src="assets/screenshots/screenshot0001.png" alt="Early Pathogen battle board">
-              </button>
-              <figcaption data-i18n="gallery.items.0"></figcaption>
-            </figure>
-            <figure>
-              <button class="gallery-button" type="button" data-gallery-image="assets/screenshots/screenshot0003.png">
-                <img src="assets/screenshots/screenshot0003.png" alt="Boss encounter in Pathogen">
-              </button>
-              <figcaption data-i18n="gallery.items.1"></figcaption>
-            </figure>
-            <figure>
-              <button class="gallery-button" type="button" data-gallery-image="assets/screenshots/screenshot0005.png">
-                <img src="assets/screenshots/screenshot0005.png" alt="DNA modification reward cards">
-              </button>
-              <figcaption data-i18n="gallery.items.2"></figcaption>
-            </figure>
-          </div>
+          <div class="gallery-grid" id="galleryGrid"></div>
         </div>
       </section>
 
-      <section class="section-inner cta" aria-labelledby="cta-title">
-        <p id="cta-title" data-i18n="cta.body"></p>
+      <section id="features" class="section-band feature-band" aria-labelledby="features-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="features.kicker"></p>
+            <h2 id="features-title" data-i18n="features.title"></h2>
+            <p data-i18n="features.subtitle"></p>
+          </div>
+          <div class="feature-highlights" id="featureHighlights"></div>
+          <div class="feature-grid" id="featureGrid"></div>
+        </div>
       </section>
 
       <section class="press section-band" aria-labelledby="press-title">
@@ -174,7 +129,7 @@
               </svg>
               <span data-copy-label data-i18n="press.button"></span>
             </button>
-            <textarea id="pressText" readonly></textarea>
+            <div class="press-body" id="pressText"></div>
           </div>
         </div>
       </section>
@@ -184,9 +139,10 @@
       <div class="coverage-inner">
         <h2 id="coverage-title" data-i18n="coverage.title"></h2>
         <div class="coverage-links">
-          <a href="https://dpg.danawa.com/mobile/news/view?boardSeq=60&listSeq=6027862" target="_blank" rel="noreferrer" data-i18n="coverage.items.0"></a>
-          <a href="https://www.inven.co.kr/webzine/news/?news=317863" target="_blank" rel="noreferrer" data-i18n="coverage.items.1"></a>
-          <a href="https://gamefocus.co.kr/detail.php?number=177043" target="_blank" rel="noreferrer" data-i18n="coverage.items.2"></a>
+          <a href="https://www.gamemeca.com/view.php?gid=1777944" target="_blank" rel="noreferrer" data-i18n="coverage.items.0"></a>
+          <a href="https://dpg.danawa.com/mobile/news/view?boardSeq=60&listSeq=6027862" target="_blank" rel="noreferrer" data-i18n="coverage.items.1"></a>
+          <a href="https://www.inven.co.kr/webzine/news/?news=317863" target="_blank" rel="noreferrer" data-i18n="coverage.items.2"></a>
+          <a href="https://gamefocus.co.kr/detail.php?number=177043" target="_blank" rel="noreferrer" data-i18n="coverage.items.3"></a>
         </div>
       </div>
     </section>
